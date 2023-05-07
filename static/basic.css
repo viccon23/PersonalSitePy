@@ -1,0 +1,122 @@
+/*
+This controls the body of the page
+You can use this to set the background color, margins, etc. as shown below
+*/
+html {
+    background: rgb(40, 40, 40);
+    height: 100%;
+  }
+  
+  body {
+    margin: 20px;
+    padding: 0px;
+  }
+
+    /* This is used to make profile picture cropped as a circle */
+    img {
+      border-radius: 35%;
+    }
+    
+    /* Formatting for different header levels, if you need them! */
+    h1 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-family: Cambria, sans-serif;
+      color: #5f5f5f;
+      font-size: 56px;
+      line-height: 50px;
+      font-weight: 700;
+    }
+    
+    h2 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-family: Averta, sans-serif;
+      font-size: 22px;
+      line-height: 36px;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    /* Formatting for paragraph text */
+    p {
+      font-family: Averta, sans-serif;
+      color: #fff;
+      font-size: 22px;
+      line-height: 30px;
+    }
+    
+    /* "a" refers to links, everything below controls the color and behavior of link objects */
+    a {
+      -webkit-transition: border-color 200ms ease, color 200ms ease;
+      transition: border-color 200ms ease, color 200ms ease;
+      color: #fff;
+      text-decoration: none;
+    }
+    a:hover {
+        border-bottom-color: #ffffff;
+        color: #ffffff;
+      }
+      
+      a:focus {
+        border-bottom-color: #ffffff;
+        color: #ffffff;
+      }
+
+    .container {
+      display: flex;
+      align-items: center;
+    }
+    /* Anything marked as class="content" will have options below attached */
+    .content {
+      margin-top: 20px;
+      flex-grow: 4;
+      margin-right: 100px;
+      margin-left: 0px;
+    }
+  /* below is special formatting for a custom object, here a social-icon class */
+  .social-icon {
+    margin-top: 60px;
+    padding-right: 25px;
+    float: right;
+    border-bottom: 0px none #000;
+  }
+    
+    /* menu link settings */
+    .menu-link {
+        border: 1px solid #fff;
+        float: left; /* float the box to the left */
+        width: calc(450px- 100%); /* set the width to 100% minus the width of the .sidebar */
+        padding: 30px;
+        box-sizing: border-box;
+        height: 750px; /* set the height of the box */
+      }
+    .menu-link a {
+        
+    }
+    /* SETS THE AREA OF THE SECTION, NOT THE CONTENTS INSIDE IT*/
+    .FrontPageTitle {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+    }
+    /* SETS THE NAME SECTION*/
+    .FrontPageTitle h1 {
+        margin: 0;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 120px;
+        font-family:sans-serif, Haettenschweiler, sans-serif;
+    }
+    .footer {
+        padding: 20px;
+        width: 30%;
+        height: 90px;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
