@@ -1,2 +1,5 @@
-Hi, my name is Victor and I'm a Computer Science student at UTRGV. I'm passionate about Coding and learning about Technology, whether it's Frontend, Backend, or Full Stack. I am also interested in subjects Operating Systems, Databases, Networks, and much more.
-I am excited to see myself learn more as I continue my university studies, and can't wait to see what lies ahead.
+Hello, my name is Victor and I'm a Computer Science student at UTRGV. This website began on April 29, 2023, and will be continually updated to feature personal projects and anything new that is well.... worth including in a personal website.
+I am currently insterested in Networking, Web Development, Software Engineering and Machine Learning, and will be working on projects with a focus on the last 2 fields.
+
+I am a graduate from Brownsville Early College High School, where I graduated with my Diploma and an Associate of Art in General Studies, effectively earning over 60 college credits before I began my college life. This allowed me to clear away my basics and start working with full focus and commitment on my core technology classes.
+I am excited to see myself learn more as I continue my university studies, and can't wait to see what lies ahead. Thank you for visiting. 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type="text/css" href="static/basic.css">
+    <link rel="stylesheet" href="static/basic.css">
     <title>{{ name }}</title>
 </head>
 <body>
@@ -8,8 +8,19 @@
         <h1> Victor Contreras</h1>
     </div>
     <div class="menu-link">
-        <a href="/Goals">Goals</a>
-        <a href="/Projects">Projects</a>
+        <div class="projects">
+            <h1>Projects:</h1>
+            <a href="/Wordle">Wordle</a>
+            <a href="/DiscordMessageBot">Discord Message Bot</a>
+        </div>
+        <div class="Education">
+            <h1 href="/Education"> Education</h1>
+        </div>
+        <div class="Contact">
+            <h1>Contact Info:</h1>
+            <h3>Email: victor.contreras23@aol.com</h3>
+            <h3>Phone: (956) 459-3249</h3>
+        </div>
     </div>
     <div class="container">
         <div class="content">
@@ -17,8 +28,8 @@
           <p>{{ content }}</p>
           {% endfor %}
         </div>
-        <div style="text-align: right; margin-left: 20px;">
-          <img src="" alt="myProfileImage">
+        <div class = "image">
+          <img src="/static/me.jpg" alt="myProfileImage">
         </div>
       </div>
     </div>
