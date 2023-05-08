@@ -2,9 +2,7 @@
 This controls the body of the page
 You can use this to set the background color, margins, etc. as shown below
 */
-*{
-  border: 1px white;
-}
+
 html {
     background: rgb(34, 34, 34);
     height: 100%;
@@ -23,17 +21,17 @@ html {
 
 
     .FrontPageTitle {
-      padding: 2px;
-      width: 50%;
+      padding-bottom: 50px;
+      width: 100%;
       box-sizing: content-box;
       position: relative;
-      border: 2px rgb(44, 44, 44);
     }
     .FrontPageTitle h1 {
       font-family: monospace;
-      color: white;
+      color: #ffffff;
       font-size: 80px;
       margin: 0;
+      border-bottom: 2px solid rgb(75, 75, 75);
     }
  
     
@@ -85,7 +83,7 @@ html {
       font-family: monospace;
         margin: 1rem;
         border: 3px solid #757575;
-        width: 250px; /* set the width to 100% minus the width of the .sidebar */
+        width: 300px; /* set the width to 100% minus the width of the .sidebar */
         padding: 20px;
         box-sizing: border-box;
         height: relative; /* set the height of the box */
@@ -94,18 +92,19 @@ html {
         float: left;
       }
     .menu-link h1{
-      padding-left: 15px;
+      padding-left: 0px;
       color:#fff;
+      font-size: 2rem;
     }
     .menu-link h3{
       margin: 0px;
-      padding: 0px;
       color:#fff;
-      font-family: mono;
+      font-family: monospace;
+      font-size: 1rem;
     }
     .menu-link a{
-      font-size:1.5rem;
-      line-height: 2rem;
+      font-size:1.5em;
+      line-height: 2.5rem;
     }
     .footer {
         padding: 20px;
@@ -115,4 +114,10 @@ html {
         position: absolute;
         bottom: 0;
         left: 0;
+    }
+
+    /* WORDLE PROJECT CSS */
+    .ProjectSummaryWordle p {
+      float: left;
+      width: 50%;
     }
