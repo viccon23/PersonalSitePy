@@ -3,18 +3,18 @@ This controls the body of the page
 You can use this to set the background color, margins, etc. as shown below
 */
 
-html {
+    html {
     background: rgb(34, 34, 34);
     height: 100%;
-  }
-  
-  body {
+    }
+ 
+    body {
     margin: 10px;
     padding: 15px;
-  }
+    }
 
     /* This is used to make profile picture cropped as a circle */
-    img {
+    .image img {
       border-radius: 25%;
       width: 400px;
     }
@@ -52,13 +52,16 @@ html {
     a:hover {
         border-bottom-color: #ffffff;
         color: gold;
-      }
+    }
       
-      a:focus {
-        border-bottom-color: #ffffff;
-        color: gold;
-      }
-
+     a:focus {
+     border-bottom-color: #ffffff;
+     color: gold;
+    }
+    .center-link {
+      display: block;
+      text-align: center;
+    }
     .container {
       display: flex;
       align-items: center;
@@ -66,17 +69,17 @@ html {
     }
     /* Anything marked as class="content" will have options below attached */
     .content {
-      flex-grow: 4;
+      /*flex-grow: 4;*/
       margin-right: 25px;
       margin-left: 25px;
     }
-  /* below is special formatting for a custom object, here a social-icon class */
-  .social-icon {
+    /* below is special formatting for a custom object, here a social-icon class */
+    .social-icon {
     
     padding-right: 25px;
     float: right;
     border-bottom: 0px none #000;
-  }
+    }
     
     /* menu link settings */
     .menu-link {
@@ -90,7 +93,7 @@ html {
         display: flex;
         flex-direction: column;
         float: left;
-      }
+    }
     .menu-link h1{
       padding-left: 0px;
       color:#fff;
@@ -115,9 +118,19 @@ html {
         bottom: 0;
         left: 0;
     }
-
     /* WORDLE PROJECT CSS */
-    .ProjectSummaryWordle p {
-      float: left;
-      width: 50%;
+    .containerWordle {
+      display: flex;
+      align-items: center;
     }
+    .image-container {
+        display: flex;
+        justify-content: space-between;
+        float: right;
+    }
+
+    .image-container img {
+        width: 400px;
+        padding-right: 50px;
+    }
+    
