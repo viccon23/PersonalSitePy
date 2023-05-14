@@ -133,4 +133,14 @@ You can use this to set the background color, margins, etc. as shown below
         width: 400px;
         padding-right: 50px;
     }
+    /* MESSAGE BOT CSS */
+    .containerMessage {
+      display:flex;
+      align-items: top;
+      padding-right: 0px;
+    }
+    .image-containerMessage img {
+      width:600px;
+      padding-right:20px;
+    }
     
