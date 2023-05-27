@@ -4,12 +4,6 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 
-
-@app.route("/user/<name>")
-def greet(name):
-    return f"<p> Hello, { name }! </p>"
-
-
 @app.route("/")
 
 def homeInfo():
@@ -28,12 +22,16 @@ def writeToFile(filename, message):
         f.write(message)
 
 @app.route("/Wordle")
-def projects():
+def project0():
     return render_template("wordle.html")
 
 @app.route("/DiscordMessageBot")
-def project():
+def project1():
     return render_template("MessageBot.html")
+
+@app.route("/CPPMusicPlaylist")
+def project2():
+    return render_template("CPPMusic.html")
     
 
 ## When running this file directly...

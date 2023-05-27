@@ -143,4 +143,14 @@ You can use this to set the background color, margins, etc. as shown below
       width:600px;
       padding-right:20px;
     }
+
+    /* C++ PLAYLIST CSS */
+    .containerMusic {
+      align-items: top;
+      display:flex;
+    }
+    .image-containerMusic img {
+      width:650px;
+      padding-right: 50px;
+    }
     
