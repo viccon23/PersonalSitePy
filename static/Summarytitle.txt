@@ -3,3 +3,5 @@ I am currently insterested in Networking, Web Development, Software Engineering 
 
 I am a graduate from Brownsville Early College High School, where I graduated with my Diploma and an Associate of Art in General Studies, effectively earning over 60 college credits before I began my college life. This allowed me to clear away my basics and start working with full focus and commitment on my core technology classes.
 I am excited to see myself learn more as I continue my university studies, and can't wait to see what lies ahead. Thank you for visiting. 
+
+Update as of November 4, 2023: Hello! I haven't taken the time to update this website or continue working on projects due to heavy schoolwork. However, I have been taking a Web Development course and will be revamping this website to use what I have learned, such as Server Side Templating, AJAX, and React instead of Flask. The new website will begin production in December once the semester finishes!
